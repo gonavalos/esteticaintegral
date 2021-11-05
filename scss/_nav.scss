@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Nomine";
+    src: url(/webfonts/fa-regular-400.ttf)
+}
+
+
+nav {
+    .nav__ { 
+        padding: 1px;
+        margin: 0 0 15px 0;
+        border-top: 1px solid lightgray;
+        align-items: flex-end;
+        justify-content: center;
+        ul li {
+            margin: 4px 30px;
+            a {
+                font-family: Nomine;
+                color: #333333;
+                transition: .2s;
+                &:hover {
+                    border-bottom: solid $fontcolor 1px; 
+                    transform: translateY(-3px);
+                    color:$fontcolor;
+                    
+                } 
+            }
+        }
+}   }

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Nomine ExtraBold';
+    src: url('../font/Nominee/Nominee-ExtraBold.otf') format('otf'),
+      url('../font/Nominee/Nominee-ExtraBold.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Nomine Medium';
+    src: url('../font/Nominee/Nominee-Medium.otf') format('otf'),
+      url('../font/Nominee/Nominee-Medium.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: 'Nomine Bold';
+    src: url('../font/Nominee/Nominee-Bold.otf') format('otf'),
+      url('../font/Nominee/Nominee-Bold.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 400;
+  }

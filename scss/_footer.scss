@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Nomine";
+    src: url(./webfonts/fa-regular-400.ttf)
+}
+
+footer {
+    font-family: "Nomine";
+    background-color: lightgray;
+    color:rgb(94, 91, 91);
+    padding: 20px 0 0 0;
+    @media (max-width: 375px){
+        background-color: lightgray;
+        width: 100%;
+    }
+    .p-3 {
+        border-right: solid rgba(211, 211, 211, 0.226);
+        height: 16rem;
+    }
+    .lugar__div{
+        .lugar__div-p {
+            display: inline-block;
+            font-size: 16px;
+        }
+        i {
+            color: $fontcolor;
+            display: inline-block;
+        }
+        .lugar__div iframe {
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+        }
+        .lugar__div-p-p {
+            margin: 5px 0 5px 0;
+            font-size: 11px;
+        }
+    }
+    .newsletter__div{
+        h4 {
+            display: inline-block;
+            color: $fontcolor;
+            font-size: 18px;
+        }
+        p{
+            font-size: 15px;
+            width: 23rem;
+            text-align: center;
+            @media (max-width: 375px){
+                font-size: 11px;
+                text-align: center;
+                width: 18rem;
+            }
+        }
+        button {
+            text-align: center;
+            border: none;
+            background: none;
+            position: relative;
+            left: 1rem;
+            top: 1rem;
+            
+        }
+        input{
+            height: 25px;
+            width: 200px;
+            font-size: 13px;
+            background: lightgray;
+            border: none;
+            border-bottom: solid grey .5px;
+            &:hover{
+                border: none;
+                border-bottom: solid grey .5px;
+            }
+        }
+        i:hover {
+            color: $fontcolor;
+        }
+        
+    }
+    .navegacion__div{
+        h4 {
+            display: inline-block;
+            color: $fontcolor;
+            font-size: 18px;
+        }
+        div a {
+            font-size: 15px;
+            color:rgb(94, 91, 91);
+            &:hover{
+                color: $fontcolor;
+            }
+        }
+    }
+}
+
