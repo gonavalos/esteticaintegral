@@ -27,14 +27,14 @@ nav .nav__ ul li a {
 }
 
 nav .nav__ ul li a:hover {
-  border-bottom: solid #f38375 1px;
+  border-bottom: solid #51ab9a 1px;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
-  color: #f38375;
+  color: #51ab9a;
 }
 
 header .header__div {
-  background-color: #f38375;
+  background-color: #51ab9a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +106,7 @@ header .header__div3 ul li a {
   display: block;
   padding: 0 10px;
   margin: 2px;
-  background: #7c3c34;
+  background: #155247;
   color: #fff;
   line-height: 50px;
   font-size: 18px;
@@ -164,7 +164,7 @@ footer .lugar__div .lugar__div-p {
 }
 
 footer .lugar__div i {
-  color: #f38375;
+  color: #51ab9a;
   display: inline-block;
 }
 
@@ -181,7 +181,7 @@ footer .lugar__div .lugar__div-p-p {
 
 footer .newsletter__div h4 {
   display: inline-block;
-  color: #f38375;
+  color: #51ab9a;
   font-size: 18px;
 }
 
@@ -223,12 +223,12 @@ footer .newsletter__div input:hover {
 }
 
 footer .newsletter__div i:hover {
-  color: #f38375;
+  color: #51ab9a;
 }
 
 footer .navegacion__div h4 {
   display: inline-block;
-  color: #f38375;
+  color: #51ab9a;
   font-size: 18px;
 }
 
@@ -238,7 +238,7 @@ footer .navegacion__div div a {
 }
 
 footer .navegacion__div div a:hover {
-  color: #f38375;
+  color: #51ab9a;
 }
 
 * {
