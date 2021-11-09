@@ -1,0 +1,65 @@
+@import "variables";
+@import "nav";
+@import "header";
+@import "footer";
+@import "body";
+@import "logos";
+@import "font";
+
+@font-face {
+    font-family: "Nomine Title";
+    src: url(../bfovc9HSe1zRiYUu/Nominee-ExtraBoldExtended.ttf)
+}
+@font-face {
+    font-family: "Nomine Medium";
+    src: url(../font/Nominee/Nominee-Medium.ttf)
+}
+
+
+    
+
+.section__{
+    background-color: #efefef;
+    padding: 3rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+
+    .section__titulo{
+        flex-wrap: wrap;
+        padding: 0 0 0 0;
+        margin-top: -2rem;
+        h1{
+            font-family: "Nomine Title";
+            font-size: 2.8rem;
+        }
+    }
+    .section__parrafo{
+        flex-wrap: wrap;
+        p{
+            font-family: "Nomine Medium";
+        }
+    }
+}
+
+.section2__{
+    margin: 4rem 0 0 0 ;
+    background-color: #efefef;
+    display: grid;
+    .valores{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "section2__vision section2__valores section2__coraje"
+    "section2__excelencia section2__pasion";
+}
+    .section2__titulo{
+        padding: 3rem;
+        h1{
+            font-family: "Nomine Title";
+            font-size: 2.8rem;
+        }
+    }
+
+
+}
