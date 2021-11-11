@@ -356,26 +356,34 @@ footer .navegacion__div div a:hover {
 }
 
 .section2__ {
-  margin: 4rem 0 0 0;
-  background-color: #efefef;
+  margin: 2rem 0 0 0;
   display: -ms-grid;
   display: grid;
-}
-
-.section2__ .valores {
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "section2__vision section2__valores section2__coraje" "section2__excelencia section2__pasion";
-}
-
-.section2__ .section2__titulo {
-  padding: 3rem;
 }
 
 .section2__ .section2__titulo h1 {
   font-family: "Nomine Title";
   font-size: 2.8rem;
+}
+
+.section2__ .section2__valores {
+  padding: 2rem;
+}
+
+.section2__ .section2__valores .section2_div {
+  width: 25rem;
+  height: 15rem;
+}
+
+.section2__ .section2__valores .section2_div h4 {
+  padding-top: 1rem;
+  font-family: "Nomine Title";
+  font-size: 1.1rem;
+}
+
+.section2__ .section2__valores .section2_div p {
+  padding-top: 1rem;
+  font-family: "Nomine Medium";
+  font-size: .8rem;
 }
 /*# sourceMappingURL=nosotros.css.map */
