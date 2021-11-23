@@ -5,11 +5,11 @@
 @import "body";
 @import "logos";
 @import "font";
-@import Swiper, { Navigation, Pagination } from 'swiper';
+
 
 @font-face {
     font-family: "Nomine Title";
-    src: url(../bfovc9HSe1zRiYUu/Nominee-ExtraBoldExtended.ttf)
+    src: url(../font/Nominee/Nominee-ExtraBoldExtended.ttf)
 }
 @font-face {
     font-family: "Nomine Medium";
@@ -43,35 +43,75 @@
     }
 }
 
-.section2__{
-    margin: 2rem 0 0 0 ;
-    display: grid;
 
-    .section2__titulo{
+
+
+.section2__titulo{
+    padding: 1rem 0 0 2rem;
+    h1{
+    font-family: "Nomine Title";
+    font-size: 2.8rem;
+}
+}
+.swiper{
+    margin: 5rem 2rem 3rem 0 ;
+    width: 95%;
+    .section2__articulos{
         
-        h1{
-            font-family: "Nomine Title";
-            font-size: 2.8rem;
-        }
-    }
-
-    .section2__valores{
-        padding: 2rem;
-        .section2_div {
-            width: 25rem;
-            height: 15rem;
+        div{
+            padding: 30px;
+            border: 1px solid #4e4e4e;
+            width: 20rem;
+            height: 18rem;
+            text-align: center;
             h4{
-                padding-top: 1rem;
+                margin-top: 15px;
                 font-family: "Nomine Title";
-                font-size: 1.1rem;
+                font-size: 1.2rem;
+                line-height: 2.4rem;
             }
             p{
-                padding-top: 1rem;
-                font-family: "Nomine Medium";
                 font-size: .8rem;
             }
         }
     }
+    .swiper-button-next{
+        color: $fontcolor;
+    
+    }
+    .swiper-button-prev{
+        color: $fontcolor;
+    }
+}
 
+@media (max-width: 768px){
+    .section__{
+        margin-top: 1rem;
+        display: block;
+        height: auto;
+        .section__titulo{
+            width: 100%;
+            text-align: center;
+            h1{
+                
+                font-size: 2rem;
+            }
+        }
+        .section__parrafo{
+            text-align: justify;
+            
+            width: 100%;
+            p{
+                font-size: .9rem;
+            }
+        }
+    }
+
+    .section2__articulos{
+        div{
+            height: auto;
+        }
+    }
 
 }
+

@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Nomine";
-  src: url(/webfonts/fa-regular-400.ttf);
+  font-family: "Nomine Medium";
+  src: url(../font/Nominee/Nominee-Medium.otf);
 }
 
 nav .nav__ {
   padding: 1px;
-  margin: 0 0 15px 0;
+  margin: 0 0 5px 0;
   border-top: 1px solid lightgray;
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -20,7 +20,7 @@ nav .nav__ ul li {
 }
 
 nav .nav__ ul li a {
-  font-family: Nomine;
+  font-family: "Nomine Medium";
   color: #333333;
   -webkit-transition: .2s;
   transition: .2s;
@@ -135,12 +135,17 @@ header .header__div3 ul li a:hover {
 }
 
 @font-face {
-  font-family: "Nomine";
-  src: url(./webfonts/fa-regular-400.ttf);
+  font-family: "Nomine Title";
+  src: url(../font/Nominee/Nominee-ExtraBoldExtended.ttf);
+}
+
+@font-face {
+  font-family: "Nomine Medium";
+  src: url(../font/Nominee/Nominee-Medium.ttf);
 }
 
 footer {
-  font-family: "Nomine";
+  font-family: "Nomine Medium";
   background-color: lightgray;
   color: #5e5b5b;
   padding: 20px 0 0 0;
@@ -247,15 +252,8 @@ footer .navegacion__div div a:hover {
 
 @font-face {
   * {
-    font-family: "Nomine Title";
-    src: url(./bfovc9HSe1zRiYUu/Nominee-ExtraBoldExtended.ttf);
-  }
-}
-
-@font-face {
-  * {
     font-family: "Nomine Medium";
-    src: url(./bfovc9HSe1zRiYUu/Nominee-Medium.ttf);
+    src: url(../font/Nominee/Nominee-Medium.ttf);
   }
 }
 
@@ -314,7 +312,7 @@ footer .navegacion__div div a:hover {
 
 @font-face {
   font-family: "Nomine Title";
-  src: url(../bfovc9HSe1zRiYUu/Nominee-ExtraBoldExtended.ttf);
+  src: url(../font/Nominee/Nominee-ExtraBoldExtended.ttf);
 }
 
 @font-face {
@@ -355,35 +353,69 @@ footer .navegacion__div div a:hover {
   font-family: "Nomine Medium";
 }
 
-.section2__ {
-  margin: 2rem 0 0 0;
-  display: -ms-grid;
-  display: grid;
+.section2__titulo {
+  padding: 1rem 0 0 2rem;
 }
 
-.section2__ .section2__titulo h1 {
+.section2__titulo h1 {
   font-family: "Nomine Title";
   font-size: 2.8rem;
 }
 
-.section2__ .section2__valores {
-  padding: 2rem;
+.swiper {
+  margin: 5rem 2rem 3rem 0;
+  width: 95%;
 }
 
-.section2__ .section2__valores .section2_div {
-  width: 25rem;
-  height: 15rem;
+.swiper .section2__articulos div {
+  padding: 30px;
+  border: 1px solid #4e4e4e;
+  width: 20rem;
+  height: 18rem;
+  text-align: center;
 }
 
-.section2__ .section2__valores .section2_div h4 {
-  padding-top: 1rem;
+.swiper .section2__articulos div h4 {
+  margin-top: 15px;
   font-family: "Nomine Title";
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
 }
 
-.section2__ .section2__valores .section2_div p {
-  padding-top: 1rem;
-  font-family: "Nomine Medium";
+.swiper .section2__articulos div p {
   font-size: .8rem;
+}
+
+.swiper .swiper-button-next {
+  color: #51ab9a;
+}
+
+.swiper .swiper-button-prev {
+  color: #51ab9a;
+}
+
+@media (max-width: 768px) {
+  .section__ {
+    margin-top: 1rem;
+    display: block;
+    height: auto;
+  }
+  .section__ .section__titulo {
+    width: 100%;
+    text-align: center;
+  }
+  .section__ .section__titulo h1 {
+    font-size: 2rem;
+  }
+  .section__ .section__parrafo {
+    text-align: justify;
+    width: 100%;
+  }
+  .section__ .section__parrafo p {
+    font-size: .9rem;
+  }
+  .section2__articulos div {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=nosotros.css.map */

@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Nomine";
-  src: url(/webfonts/fa-regular-400.ttf);
+  font-family: "Nomine Medium";
+  src: url(../font/Nominee/Nominee-Medium.otf);
 }
 
 nav .nav__ {
   padding: 1px;
-  margin: 0 0 15px 0;
+  margin: 0 0 5px 0;
   border-top: 1px solid lightgray;
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -20,7 +20,7 @@ nav .nav__ ul li {
 }
 
 nav .nav__ ul li a {
-  font-family: Nomine;
+  font-family: "Nomine Medium";
   color: #333333;
   -webkit-transition: .2s;
   transition: .2s;
@@ -135,12 +135,17 @@ header .header__div3 ul li a:hover {
 }
 
 @font-face {
-  font-family: "Nomine";
-  src: url(./webfonts/fa-regular-400.ttf);
+  font-family: "Nomine Title";
+  src: url(../font/Nominee/Nominee-ExtraBoldExtended.ttf);
+}
+
+@font-face {
+  font-family: "Nomine Medium";
+  src: url(../font/Nominee/Nominee-Medium.ttf);
 }
 
 footer {
-  font-family: "Nomine";
+  font-family: "Nomine Medium";
   background-color: lightgray;
   color: #5e5b5b;
   padding: 20px 0 0 0;
@@ -247,15 +252,8 @@ footer .navegacion__div div a:hover {
 
 @font-face {
   * {
-    font-family: "Nomine Title";
-    src: url(./bfovc9HSe1zRiYUu/Nominee-ExtraBoldExtended.ttf);
-  }
-}
-
-@font-face {
-  * {
     font-family: "Nomine Medium";
-    src: url(./bfovc9HSe1zRiYUu/Nominee-Medium.ttf);
+    src: url(../font/Nominee/Nominee-Medium.ttf);
   }
 }
 
@@ -295,12 +293,12 @@ footer .navegacion__div div a:hover {
 
 @font-face {
   font-family: "Nomine Title";
-  src: url(./bfovc9HSe1zRiYUu/Nominee-ExtraBoldExtended.ttf);
+  src: url(../font/Nominee/Nominee-ExtraBold.otf);
 }
 
 @font-face {
   font-family: "Nomine Medium";
-  src: url(./bfovc9HSe1zRiYUu/Nominee-Medium.ttf);
+  src: url(../font/Nominee/Nominee-Medium.otf);
 }
 
 main {
@@ -316,6 +314,7 @@ main .main__h2 {
 
 main a {
   text-decoration: none;
+  font-family: "Nomine Medium";
   color: #333333;
   -webkit-transition: .5s;
   transition: .5s;
@@ -327,7 +326,7 @@ main button {
   margin: 10px;
   padding: 10px;
   font-size: 14px;
-  border: 2px solid #333333;
+  border: 1px solid #51ab9a;
   background-color: #fff;
   color: #333333;
   -webkit-transition: .2s;
@@ -347,6 +346,7 @@ main button a {
   height: 50px;
   width: 140px;
   position: relative;
+  color: #51ab9a;
   left: -12px;
   top: -11px;
   -webkit-transition: .2s;
@@ -386,6 +386,7 @@ main .main__div1 img:hover {
 main .main__div1 .main__div1-p {
   margin: 18px;
   font-size: 14px;
+  font-family: "Nomine Title";
 }
 
 main .main__div1 .main__div1-h2 {
@@ -425,6 +426,7 @@ main .main__div2 img:hover {
 main .main__div2 .main__div2-p {
   margin: 18px;
   font-size: 14px;
+  font-family: "Nomine Title";
 }
 
 main .main__div2 .main__div2-h2 {
@@ -444,6 +446,8 @@ main .main__div2 .main__div2-p2 {
 }
 
 main .main__div3 img {
+  width: 353.33px;
+  height: 224px;
   outline: .5px solid white;
   outline-offset: -7px;
   -webkit-backface-visibility: hidden;
@@ -464,6 +468,7 @@ main .main__div3 img:hover {
 main .main__div3 .main__div3-p {
   margin: 18px;
   font-size: 14px;
+  font-family: "Nomine Title";
 }
 
 main .main__div3 .main__div3-h2 {

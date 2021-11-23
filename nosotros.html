@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Estetica, Integral, Larrañaga, Córdoba">
+    <meta name="description" content="Somos un centro de estetica donde nos enfocamos en la atención personalizada. Cada paciente es un desafio y un tratamiento diferente.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/nosotros.css">
@@ -13,29 +15,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/add47fbabb.js" crossorigin="anonymous"></script>
-    <title>Estetica Integral</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <title>Sobre Nosotros - Estetica Integral</title>
 </head>
 <body>
   
-    <header class="header__">
-        <div class="header header__div">
-            <p class="header header__div-p">Lunes 14 a 20 Hs. Miércoles y Viernes 9 a 17 Hs. Sábados 9 a 13 Hs</p>
-        </div>
-        <div class="header header-conteiner">
-            <div class="header header__div2">
-            <img class="header header__div2-img" src="./imagenes/CENTRO-DE-FLEBOLOGIA-ESTETICA-LASER-Y-NUTRICION.png" alt="Estetica">
-            </div>
-            <div class="header header__div3">
-            <!-- <p class=header__div3-p>¡Seguinos en Nuestras Redes! </p> <!-->
-            <ul>
-                <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
-            </ul>
-            </div>          
-        </div>
-    </header>
+  <header class="header__">
+    <div class="header header__div">
+      <p class="header header__div-p">Lunes 14 a 20 Hs. Miércoles y Viernes 9 a 17 Hs. Sábados 9 a 13 Hs</p>
+    </div>
+    <div class="header header-conteiner">
+      <div class="header header__div2">
+        <a href="./index.html"><img class="header header__div2-img"  src="./imagenes/CENTRO-DE-FLEBOLOGIA-ESTETICA-LASER-Y-NUTRICION.png"
+          alt="Estetica"></a>
+      </div>
+      <div class="header header__div3">
+        <!-- <p class=header__div3-p>¡Seguinos en Nuestras Redes! </p> <!-->
+        <ul>
+          <li><a href="https://facebook.com/estetica" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://instagram.com/estetica" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/estetica" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://wa.link/gh92iw" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
     <nav class="conteiner" >
         <div class="navbar navbar-expand-lg navbar-light nav__">
@@ -79,7 +83,7 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Turnos</a>
+                    <a class="nav-link active" aria-current="page" href="https://wa.link/gh92iw" target="_blank">Turnos</a>
                   </li>
                 </ul>
               </div>
@@ -96,54 +100,48 @@
       <div class="col-6 section__titulo">
         <h1>Nuestra historia </h1>
       </div>
-      <div class="col-6 section__parrafo">
-          <p>ESTETICA INTEGRAL nace en 2005 de la exitosa idea de Roberto Franchina, quien decide proporcionar a los salones de todo el mundo productos de calidad, eficaces y fáciles de utilizar.
-          Independientes desde su origen, gestionamos con total autonomía todo el proceso de producción para seguir ofreciendo una visión única sobre el universo de la belleza, fruto de nuestra presencia en el territorio y del diálogo directo y personal con nuestros clientes, dondequiera que estén.</p>
+      <div class="col-6  section__parrafo">
+        <p>Estetica Integral nace en 2005 de la exitosa Maria Durá, quien se propone ayudar a redescrubrir la propia belleza de las personas.</p>
+          <p>Independientes desde su origen, gestionamos con total autonomía todo el proceso de producción para seguir ofreciendo una visión única sobre el universo de la belleza, fruto de nuestra presencia en el territorio y del diálogo directo y personal con nuestros clientes, dondequiera que estén.</p>
+ 
         </div>
     </section>
 
-    <section class="section2__">
-
-      <div class="section2__titulo">
-        <h1>Nuestros valores </h1>
+      <section class=" section2__">
+        <div class="section2__titulo">
+          <h1>Nuestros valores</h1>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper section2__articulos">
+              <div class="col-3 swiper-slide ">
+                <h4>Valores</h4>
+              <p>
+                Somos una familia numerosa que promueve relaciones estrechas con nuestros clientes y empleados a través de la escucha, el apoyo y el sentimiento de pertenencia.
+              </p></div>
+              <div class="col-3 swiper-slide">
+                <h4>Apertura a la diversidad</h4>
+                <p>
+                  Hemos crecido respetando el valor de la diversidad. En la actualidad seguimos estando al lado de las personas, apoyando y ayudando a cada uno que persiga su idea de belleza, cualquiera que esta sea.
+                </p>
+              </div>
+              <div class="col-3 swiper-slide">
+                <h4>Excelencia</h4>
+                <p>Reunimos las tecnologías más avanzadas con el enfoque típico italiano de querer hacer las cosas buscando siempre la excelencia</p>
+              </div>
+              <div class="col-3 swiper-slide">
+                <h4>Innovación</h4>
+                <p>Para ayudar a los demás a redescubrir su propia belleza, nos esforzamos cada dia en cambiar nosotros también. Tenemos la mirada puesta en un mundo en continua evolución y desarrollamos continuamente soluciones que interpretan con originalidad las tendencias de nuestros días y del mañana.</p>
+              </div>
+            </div>
+        
+        
+     
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
-      <!-- Different sized gutters can be used with the help of .gy-*-{0|1|2|3|4|5} class -->
-<div class="row gy-3 gy-xxl-5 section2__valores">
-  <div class="col">
-    <div class="p-3 border bg-light text-center ">
-      <h4>Valores</h4>
-      <p>Somos una familia numerosa que promueve relaciones estrechas con nuestros clientes y empleados a través de la escucha, el apoyo y el sentimiento de pertenencia</p>
-    </div>
-  </div>
-  <div class="col">
-    <div class="p-3 border bg-light text-center"><h4>Visión de futuro</h4>
-    <p>La publicación del Informe de Sostenibilidad concretiza el compromiso diario del GRUPO ALFAPARF con el desarrollo sostenible. Ejemplos de ello son la certificación Ecocert, la reducción del uso de plástico, la ausencia de pruebas en animales, el uso de energía proveniente de fuentes renovables ​​y los proyectos sociales.</p></div>
-  </div>
-  <div class="col">
-    <div class="p-3 border text-center section2_div">
-      <h4>Coraje</h4>
-      <p>No tenemos miedo de correr riesgos y usar nuestra independencia para actuar y encontrar nuestro camino</p>
-    </div>
-  </div>
-</div>
 
-<div class="row gy-3 gy-xxl-5 section2__valores">
-  <div class="col">
-    <div class="p-3 border bg-light text-center">
-      <h4>Pasión</h4>
-      <p>Estamos comprometidos a satisfacer las necesidades en continua evolución de los peluqueros y sus clientes. Amamos la belleza</p>
-    </div>
-  </div>
-  <div class="col">
-    <div class="p-3 border bg-light text-center">
-      <h4>Excelencia</h4>
-    <p>Reunimos las tecnologías más avanzadas con el enfoque típico italiano de querer hacer las cosas buscando siempre la excelencia</p></div>
-  </div>
-</div>
-
-
-
-    </section>
+      </section>
 
   <div class="logos">
     <div>
@@ -177,19 +175,56 @@
           <div class="p-3 footer navegacion__div">
             <h4>Navegación</h4>
             <div class="nav flex-column footer navegacion__div-tabla">
-              <a class="nav-link disabled footer navegacion__div-tabla-a" aria-current="page" href="#">Home</a>
-              <a class="nav-link footer navegacion__div-tabla-a" href="#">Sobre Nosotros</a>
-              <a class="nav-link footer navegacion__div-tabla-a" href="#">Estetica Corporal</a>
-              <a class="nav-link footer navegacion__div-tabla-a" href="#">Estetica Facial</a>
-              <a class="nav-link footer navegacion__div-tabla-a" href="#" tabindex="-1" aria-disabled="true">Turnos</a>
+              <a class="nav-link footer navegacion__div-tabla-a" href="/index.html">Home</a>
+              <a class="nav-link disabled footer navegacion__div-tabla-a" aria-current="page" href="#">Sobre Nosotros</a>
+              <a class="nav-link footer navegacion__div-tabla-a" href="./corporal.html">Estetica Corporal</a>
+              <a class="nav-link footer navegacion__div-tabla-a" href="./facial.html">Estetica Facial</a>
+              <a class="nav-link footer navegacion__div-tabla-a" href="https://wa.link/gh92iw" target="_blank" tabindex="-1" aria-disabled="true">Turnos</a>
             </div>
         </div>
       </div>
     </footer>
-    
-    
+
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> 
+
+        <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 90,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1.03,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 1.03,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 1.03,
+            spaceBetween: 30,
+          },
+          "@1.50": {
+            slidesPerView: 3.03,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+
 </body>
 </html>

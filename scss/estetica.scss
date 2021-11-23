@@ -7,11 +7,11 @@
 
 @font-face {
     font-family: "Nomine Title";
-    src: url(./bfovc9HSe1zRiYUu/Nominee-ExtraBoldExtended.ttf)
+    src: url(../font/Nominee/Nominee-ExtraBold.otf)
 }
 @font-face {
     font-family: "Nomine Medium";
-    src: url(./bfovc9HSe1zRiYUu/Nominee-Medium.ttf)
+    src: url(../font/Nominee/Nominee-Medium.otf)
 }
 
 @mixin main-img{
@@ -44,6 +44,7 @@ main {
     }
     a {
     text-decoration: none;
+    font-family: "Nomine Medium";
     color: #333333;
     transition: .5s;
     }
@@ -53,7 +54,7 @@ main {
         margin: 10px;
         padding: 10px;
         font-size: 14px;
-        border: 2px solid #333333;
+        border: 1px solid $fontcolor;
         background-color: #fff;
         color: #333333;
         transition: .2s;
@@ -69,6 +70,7 @@ main {
             height: 50px;
             width: 140px;
             position: relative;
+            color: $fontcolor;
             left: -12px;
             top: -11px;
             transition: .2s;
@@ -96,6 +98,7 @@ main {
             .main__div1-p {
                 margin: 18px;
                 font-size: 14px;
+                font-family: "Nomine Title";
             }
             .main__div1-h2 {
                 @include    main-h2();
@@ -120,6 +123,7 @@ main {
         .main__div2-p {
             margin: 18px;
             font-size: 14px;
+            font-family: "Nomine Title";
         }
         .main__div2-h2 {
             @include    main-h2();
@@ -134,6 +138,8 @@ main {
     }
     .main__div3{
         img{
+            width: 353.33px;
+            height: 224px;
             @include main-img();
             &:hover {
                 @include main-img-hover();
@@ -142,6 +148,7 @@ main {
         .main__div3-p {
             margin: 18px;
             font-size: 14px;
+            font-family: "Nomine Title";
         }
         .main__div3-h2 {
             @include    main-h2();

@@ -1,10 +1,14 @@
 @font-face {
-    font-family: "Nomine";
-    src: url(./webfonts/fa-regular-400.ttf)
+    font-family: "Nomine Title";
+    src: url(../font/Nominee/Nominee-ExtraBoldExtended.ttf)
+}
+@font-face {
+    font-family: "Nomine Medium";
+    src: url(../font/Nominee/Nominee-Medium.ttf)
 }
 
 footer {
-    font-family: "Nomine";
+    font-family: "Nomine Medium";
     background-color: lightgray;
     color:rgb(94, 91, 91);
     padding: 20px 0 0 0;
